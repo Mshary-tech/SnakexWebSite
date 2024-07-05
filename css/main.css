@@ -521,13 +521,15 @@ footer #container .footer_bottom P:last-child {
   color: #fff;
 }
 .header .high-c{
+  margin-left: 40px;
+  color:#FFF;
+  text-align: center;
+  font-family:JakartaRegular;
   font-size: 48px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 100;
   line-height: 120%; /* 57.6px */
-  letter-spacing:0px;
-  margin-left: 40px;
-  /* font-family:"JakartaRegular"; */
+  letter-spacing: -3.36px;
 }
 .about {
   background: linear-gradient(180deg, #000 0%, #5E17EB 100%);
