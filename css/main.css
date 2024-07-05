@@ -877,6 +877,7 @@ footer #container .footer_bottom P:last-child {
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  border-radius: 15px;
 }
 .work_Cnt #container .work_case > div img {
   transition: all 0.3s ease-in-out;
