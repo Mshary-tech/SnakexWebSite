@@ -515,6 +515,7 @@ footer #container .footer_bottom P:last-child {
   height: 500px;
   justify-content: end;
   gap: 100px;
+  padding-right: 28px;
 }
 .header h1{
   color: #fff;
@@ -524,8 +525,9 @@ footer #container .footer_bottom P:last-child {
   font-style: normal;
   font-weight: 200;
   line-height: 120%; /* 57.6px */
-  letter-spacing: -3.36px;
-  margin-left: 50px;
+  letter-spacing:0px;
+  margin-left: 40px;
+  /* font-family:"JakartaRegular"; */
 }
 .about {
   background: linear-gradient(180deg, #000 0%, #5E17EB 100%);
@@ -714,8 +716,8 @@ footer #container .footer_bottom P:last-child {
     border-radius: 40px;
   }
   .projects #container .case_wrapper .project_case_holder .project_case .sub_img {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 30%;
   }
 }
 @media (max-width: 540px) {
@@ -725,6 +727,11 @@ footer #container .footer_bottom P:last-child {
   .projects #container .case_wrapper .project_case_holder .project_case .main_img {
     max-height: 400px;
     border-radius: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .projects #container .case_wrapper .project_case_holder .project_case .sub_img {
+    width: 100%;
   }
 }
 .Belief {
@@ -1409,7 +1416,7 @@ footer #container .footer_bottom P:last-child {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(30deg);
+  transform: translate(-50%, -50%) rotate(40deg);
   width: 40px;
   height: 100vh;
   background: #fff;
