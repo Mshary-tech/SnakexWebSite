@@ -933,7 +933,7 @@ footer #container .footer_bottom P:last-child {
     border-radius: 30px;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 800px) {
   .work_Cnt {
     margin-top: 2rem;
   }
