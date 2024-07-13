@@ -903,12 +903,7 @@ footer #container .footer_bottom P:last-child {
 .work_Cnt {
   padding: 8rem 0;
 }
-#big-work{
 
-}
-#small-work{
-
-}
 @media (max-width: 540px) {
   .work_Cnt {
     padding: 4rem 0;
@@ -1489,6 +1484,58 @@ footer #container .footer_bottom P:last-child {
 .numbering p {
   opacity: 0.3;
 }
+
+#big-work{
+
+}
+@media (max-width: 1800px) {
+  #small-work{
+    height: 40% !important;
+  }
+}
+@media (max-width: 1500px) {
+  .work_Cnt #container .work_case > div{
+    height: 40vh;
+  }
+  #small-work{
+    height: 40% !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .work_Cnt #container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+  .work_Cnt #container .work_case > div{
+    height: 60vh;
+  }
+  #small-work{
+    height: 60% !important;
+  }
+  #small-work-car{
+    height: 90% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .work_Cnt #container {
+    row-gap: 3rem;
+  }
+  .work_Cnt #container .work_case > div{
+    height: 20vh;
+  }
+  #small-work{
+    height: 60% !important;
+  }
+  #small-work-car{
+    height: 90% !important;
+  }
+}
+
 
 /* Border Seprator */
 .borderSeprator {
