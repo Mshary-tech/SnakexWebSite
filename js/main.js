@@ -112,7 +112,7 @@ function animateProjectCase(projectCase, entering) {
 function horizontalScrollPlayground() {
     const horizontalScroll = document.querySelector('.horizontal_scroll');
     if (!horizontalScroll) return;
-    const horizontalScrollLength = horizontalScroll.scrollWidth;
+    const horizontalScrollLength = horizontalScroll.scrollWidth + 800;
     gsap.to(horizontalScroll, {
         x: () => -(horizontalScrollLength - window.innerWidth),
         ease: 'none',
